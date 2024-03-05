@@ -34,7 +34,7 @@ min_date = day_df["dteday"].min()
 max_date = day_df["dteday"].max()
 
 with st.sidebar:
-    st.image("https://github.com/AlfaKazama/Proyek-Analisis-Data/raw/main/raw/sepeda.jpg")
+    st.image("https://github.com/AlfaKazama/Proyek-Analisis-Data/raw/main/image/sepeda.png")
     date_range = st.date_input(
         label='Rentang Waktu',
         min_value=min_date,
@@ -115,3 +115,5 @@ ax.legend()
 
 # Menampilkan plot di Streamlit
 st.pyplot(fig)
+
+
